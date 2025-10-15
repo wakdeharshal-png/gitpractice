@@ -30,6 +30,7 @@ def main():
         name = input("Enter new repo name: ")
         github_utils.create_repo(token, name)
     else:
+  print("7. Create new GitHub repo")
         print("Invalid choice")
 
 if __name__ == "__main__":
