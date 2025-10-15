@@ -10,6 +10,7 @@ def main():
     print("5. Pull latest")
     print("6. Repo status")
     print("7. Create new GitHub repo")
+    print("7. Create new GitHub repo")
     choice = input("Enter choice: ")
 
     if choice == "1":
